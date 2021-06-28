@@ -4,7 +4,6 @@ pragma solidity >0.8.0;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract Swapper {
-    address public fromAddress;
     IERC20 public fromToken;
     IERC20 public toToken;
     uint256 public amount;
